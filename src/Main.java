@@ -27,6 +27,18 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //*****************   *******************************
+        String inpCase = scanner.nextLine();
+        switch (inpCase) {
+            case "+" -> printAdd(a, b);
+            case "-" -> printSub(a, b);
+            case "*" -> printMul(a, b);
+            case "/" -> printDiv(a, b);
+            default -> System.out.println(" Incorrect operation !!!");
+        }
+
+        //************************************************
+
 
     }
 }
