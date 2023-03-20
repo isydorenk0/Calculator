@@ -11,6 +11,6 @@ public class Main {
         System.out.println("Ведіть знак операції \n1 - додати \n2 - відняти \n3 - помножити \n4 - поділити");
         action = scanner.nextInt();
 
-        System.out.println("Результат " + result);
+
     }
 }
